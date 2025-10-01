@@ -1,1 +1,39 @@
-env
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Editor/OS specific files
+.DS_Store
+.vscode/
+*.swp
+*~
+
+# FastAPI specific
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.ruff_cache/
+
+# Environment variables
+.env
+.env.*
+*.ini
+*.toml # If used for local configuration, not for project dependencies
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Database files (if using SQLite directly)
+*.sqlite3
+*.db
